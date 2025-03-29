@@ -1,6 +1,6 @@
 # ⚡ Energy-Aware LLM Chaining Framework
 
-A modular, energy-efficient framework for building and experimenting with plug-and-play LLM chains. Designed to support chaining LLMs into cost-effective, energy-conscious solutions.
+A modular, energy-efficient framework for building plug-and-play LLM chains. Designed to support chaining LLMs into cost-effective, energy-conscious solutions.
 ---
 
 ## 🚀 Project Goals
