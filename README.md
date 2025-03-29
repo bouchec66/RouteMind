@@ -1,2 +1,2 @@
-# energy_aware_models
-A lightweight environment for developing and running Jupyter notebooks on RunPod, with support for remote access, model chaining, and energy-efficient experimentation.
+# Energy Aware Models
+A Python project for chaining large language models with energy efficiency in mind.
