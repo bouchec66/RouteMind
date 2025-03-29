@@ -14,18 +14,18 @@ A modular, energy-efficient framework for building and experimenting with plug-a
 
 ## Long-Term Vision
 
-As we look to the future, this project aims to evolve into:
+This project aims to evolve into:
 
-- **Open-Source Protocol for Model Chaining:**  
+- **An Open-Source Protocol for Model Chaining:**  
   Developing a standardized protocol, tentatively named *LLMCast* or *ChainML*, to facilitate seamless integration and communication between diverse language models.
 
-- **Standard Adapter Library Between Open Models:**  
+- **A Standard Adapter Library Between Open Models:**  
   Creating a comprehensive adapter library that enables interoperability among various open-source models, enhancing flexibility and usability.
 
-- **Green AI Toolkit with Live Token Cost & Energy Estimation:**  
+- **A Green AI Toolkit with Live Token Cost & Energy Estimation:**  
   Building a toolkit focused on sustainability, providing real-time insights into token costs and energy consumption to promote environmentally conscious AI development.
 
-By striving towards these objectives, we aim to contribute meaningfully to the AI community, emphasizing collaboration, standardization, and sustainability.
+Achieving these objectives will contribute meaningfully to the AI community by emphasizing collaboration, standardization, and sustainability.
 
 ## 📁 Project Structure
 
