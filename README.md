@@ -1,7 +1,6 @@
 # ⚡ Energy-Aware LLM Chaining Framework
 
-A modular, **energy-efficient framework** for building and experimenting with **plug-and-play LLM chains**. Designed for low-cost inference, flexible model selection, and rapid iteration across GPU or hosted environments like RunPod.
-
+A modular, energy-efficient framework for building and experimenting with plug-and-play LLM chains. Designed to support chaining LLMs into cost-effective, energy-conscious solutions.
 ---
 
 ## 🚀 Project Goals
@@ -12,6 +11,21 @@ A modular, **energy-efficient framework** for building and experimenting with **
 - 🌐 **Remote-first**: developed with containerized or hosted GPU environments in mind.
 
 ---
+
+## Long-Term Vision
+
+As we look to the future, this project aims to evolve into:
+
+- **Open-Source Protocol for Model Chaining:**  
+  Developing a standardized protocol, tentatively named *LLMCast* or *ChainML*, to facilitate seamless integration and communication between diverse language models.
+
+- **Standard Adapter Library Between Open Models:**  
+  Creating a comprehensive adapter library that enables interoperability among various open-source models, enhancing flexibility and usability.
+
+- **Green AI Toolkit with Live Token Cost & Energy Estimation:**  
+  Building a toolkit focused on sustainability, providing real-time insights into token costs and energy consumption to promote environmentally conscious AI development.
+
+By striving towards these objectives, we aim to contribute meaningfully to the AI community, emphasizing collaboration, standardization, and sustainability.
 
 ## 📁 Project Structure
 
@@ -88,8 +102,7 @@ What it does:
 
 ## 📄 License
 
-MIT License (or specify yours here)
-
+License: MIT
 ---
 
 ## 🤝 Contributing
