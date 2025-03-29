@@ -1,48 +1,56 @@
 #!/bin/bash
-# rebuild_project.sh - Clean project folder and set up fresh environment
+# rebuild_project.sh - Clean and rebuild the project environment
 
 echo "🛠 Rebuilding project in $(pwd)"
 
-# Fail on error
+# Fail on any error
 set -e
 
-# Save rebuild script filename
-SCRIPT_NAME=$(basename "$0")
+# Move to the script's directory
+cd "$(dirname "$0")"
 
-# Back up .git directory
-echo "📦 Backing up existing .git directory..."
-mv .git /tmp/git-backup
+# Preserve .git directory if it exists
+if [ -d ".git" ]; then
+    echo "📦 Backing up existing .git directory..."
+    mv .git /tmp/git_backup
+fi
 
-# Back up this script (so it survives cleanup)
-cp "$SCRIPT_NAME" /tmp/"$SCRIPT_NAME".backup
-
-# Clean project folder but preserve this script and .git
+# Clean project folder while preserving essential files
 echo "🧹 Cleaning project folder..."
-find . -mindepth 1 -not -path "./.git*" -not -name "$SCRIPT_NAME" -exec rm -rf {} +
+find . -mindepth 1 -maxdepth 1 \
+  ! -name '.gitignore' \
+  ! -name 'README.md' \
+  ! -name 'pyproject.toml' \
+  ! -name 'setup.py' \
+  ! -name 'rebuild_project.sh' \
+  ! -name 'startup.sh' \
+  ! -name 'src' \
+  -exec rm -rf {} +
 
 # Restore .git directory
-echo "🔁 Restoring .git directory..."
-mv /tmp/git-backup .git
+if [ -d "/tmp/git_backup" ]; then
+    echo "🔁 Restoring .git directory..."
+    mv /tmp/git_backup .git
+fi
 
-# Restore rebuild script from Git (discard local edits)
-echo "📄 Restoring $SCRIPT_NAME from Git..."
-git restore "$SCRIPT_NAME"
-
-# Remove temp backup copy
-rm /tmp/"$SCRIPT_NAME".backup
+# Restore this script from Git if needed (shouldn't be needed now)
+echo "📄 Ensuring rebuild_project.sh is present..."
+git restore rebuild_project.sh || true
 
 # Create virtual environment
 echo "🐍 Creating virtual environment..."
 python3 -m venv venv
-
-# Activate virtual environment
 source venv/bin/activate
 
 # Upgrade pip
 pip install --upgrade pip
 
-# Install project in editable mode
-pip install -e .
+# Install your package in editable mode
+if [ -f "pyproject.toml" ]; then
+    pip install -e .
+else
+    echo "⚠️  pyproject.toml not found. Skipping install."
+fi
 
 echo "✅ Rebuild complete. Project is ready and venv is active."
 echo "👉 To activate the virtual environment later: source venv/bin/activate"
