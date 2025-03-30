@@ -1,6 +1,6 @@
 © 2025 RouteMind Project. Released under the MIT License.
 
-# RouteMind – Cost-Aware LLM Routing Framework
+# RouteMind: Cost-Aware LLM Routing Framework
 ![image](https://github.com/user-attachments/assets/d7a59dbe-dbc6-4e2a-bcf0-646a450498bc)
 
 RouteMind is a modular, cost-aware framework for building plug-and-play LLM routes. It supports routing LLMs into cost-effective, energy-conscious solutions across providers and model generations.
