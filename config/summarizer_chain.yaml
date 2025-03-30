@@ -1,0 +1,20 @@
+# 🧩 RouteMind Chain Config: Summarizer (Cheap-to-Expensive)
+
+steps:
+  - name: cheap-summarizer
+    model: mistral-7b
+    fallback_if:
+      - response_length_lt: 100
+      - contains_any:
+          - "I don't know"
+          - "I'm not sure"
+          - "This text"
+
+  - name: expensive-refiner
+    model: gpt-4
+    fallback_if: null  # This is the final step if triggered
+
+settings:
+  input_format: "text"
+  output_format: "summary"
+  log_level: "info"
