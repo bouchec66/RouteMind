@@ -1,7 +1,7 @@
 © 2025 RouteMind Project. Released under the MIT License.
 
-# ⚡ RouteMind – Energy-Aware LLM Chaining Framework
-
+# RouteMind – Energy-Aware LLM Chaining Framework
+![image](https://github.com/user-attachments/assets/ecd3e2bf-1420-421a-b59f-1536a295a839)
 
 RouteMind is a modular, energy-aware framework for building plug-and-play LLM chains. It supports chaining LLMs into cost-effective, energy-conscious solutions across providers and model generations.
 ---
