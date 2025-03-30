@@ -30,6 +30,8 @@ This project aims to evolve into:
 
 Achieving these objectives will contribute meaningfully to the AI community by emphasizing collaboration, standardization, and sustainability.
 
+https://github.com/bouchec66/energy_aware_models/wiki
+
 ## 📁 Project Structure
 
 ```
