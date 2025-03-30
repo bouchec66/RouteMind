@@ -14,6 +14,9 @@ A modular, energy-efficient framework for building plug-and-play LLM chains. Des
 
 ## Long-Term Vision
 
+The idea for chaining LLMs came from observing how we, as humans, approach problems. Most of the time, we use just enough effort to function effectively—and only dive deep when necessary. This mirrors how we think about efficiency in everything from manufacturing to daily life.
+
+With the growing variety of LLMs—older, smaller, cheaper models alongside newer, larger, more power-hungry ones—it can be confusing to decide which to use. My proposal is simple: start small and scale up only as needed. By using lightweight models first and escalating to more powerful ones when required, we can solve problems more efficiently, both in terms of cost and energy.
 This project aims to evolve into:
 
 - **An Open-Source Protocol for Model Chaining:**  
