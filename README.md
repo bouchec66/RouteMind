@@ -17,8 +17,6 @@ https://github.com/bouchec66/RouteMind/wiki
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 ```
 RouteMind/
 ├── README.md                # Project overview and setup instructions
