@@ -13,11 +13,9 @@ RouteMind is a modular, energy-aware framework for building plug-and-play LLM ch
 
 ---
 
-https://github.com/bouchec66/energy_aware_models/wiki
+https://github.com/bouchec66/RouteMind/wiki
 
 ## 📁 Project Structure
-
-Note: This project is being renamed from `energy_aware_models` to **RouteMind**. Folder names and package imports may still reflect the old name in early versions.
 
 ```
 energy_aware_models/
