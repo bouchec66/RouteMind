@@ -1,3 +1,5 @@
+© 2025 RouteMind Project. Released under the MIT License.
+
 # ⚡ RouteMind – Energy-Aware LLM Chaining Framework
 
 
