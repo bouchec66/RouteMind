@@ -1,5 +1,5 @@
 [project]
-name = "energy_aware_models"
+name = "RouteMind"
 version = "0.1.0"
 description = "Energy-aware model chaining project"
 readme = "README.md"
