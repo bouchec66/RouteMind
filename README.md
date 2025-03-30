@@ -17,19 +17,22 @@ https://github.com/bouchec66/RouteMind/wiki
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
+
 ```
-energy_aware_models/
+RouteMind/
+├── README.md                # Project overview and setup instructions
+├── LICENSE                  # License info (MIT)
+├── docs/
+│   └── wbs.md               # Work Breakdown Structure
+├── pyproject.toml           # Project metadata and dependencies
+├── requirements.txt         # Optional: static dependency pinning
+├── rebuild_project.sh       # One-time environment reset script
+├── startup.sh               # Regular dev session startup script
 ├── src/
-│   └── energy_aware_models/
-│       ├── __init__.py
-│       ├── config.py
-│       └── main.py
-├── venv/ (created by rebuild script)
-├── rebuild_project.sh
-├── startup.sh
-├── pyproject.toml
-├── README.md
-└── .gitignore
+│   └── RouteMind/           # Core logic and configuration
+├── tests/                   # Test cases for critical modules
+├── utils/                   # Utility scripts (e.g., chatbot, Gradio runner)
 ```
 
 ---
