@@ -2,6 +2,7 @@
 
 # RouteMind – Cost-Aware LLM Chaining Framework
 ![image](https://github.com/user-attachments/assets/d7a59dbe-dbc6-4e2a-bcf0-646a450498bc)
+
 RouteMind is a modular, cost-aware framework for building plug-and-play LLM chains. It supports chaining LLMs into cost-effective, energy-conscious solutions across providers and model generations.
 ---
 
