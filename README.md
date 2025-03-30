@@ -3,7 +3,7 @@
 # RouteMind – Cost-Aware LLM Routing Framework
 ![image](https://github.com/user-attachments/assets/d7a59dbe-dbc6-4e2a-bcf0-646a450498bc)
 
-RouteMind is a modular, cost-aware framework for building plug-and-play LLM chains. It supports routing LLMs into cost-effective, energy-conscious solutions across providers and model generations.
+RouteMind is a modular, cost-aware framework for building plug-and-play LLM routes. It supports routing LLMs into cost-effective, energy-conscious solutions across providers and model generations.
 ---
 
 ## 🚀 Project Goals
@@ -78,7 +78,7 @@ What it does:
 
 - This project installs itself as an **editable package**, so changes in `src/RouteMind/` reflect instantly.
 - Ideal for containerized dev (e.g., RunPod, Docker).
-- Designed for chaining LLM calls together using dynamic routing, caching, and cost-aware strategies (coming soon).
+- Designed for routing LLM calls together using dynamic routing, caching, and cost-aware strategies (coming soon).
 
 ---
 
