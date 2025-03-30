@@ -1,6 +1,6 @@
 # ⚡ Energy-Aware LLM Chaining Framework
 
-A modular, energy-efficient framework for building plug-and-play LLM chains. Designed to support chaining LLMs into cost-effective, energy-conscious solutions.
+A modular, energy-aware framework for building plug-and-play LLM chains. Designed to support chaining LLMs into cost-effective, energy-conscious solutions.
 ---
 
 ## 🚀 Project Goals
@@ -11,24 +11,6 @@ A modular, energy-efficient framework for building plug-and-play LLM chains. Des
 - 🌐 **Remote-first**: developed with containerized or hosted GPU environments in mind.
 
 ---
-
-## Long-Term Vision
-
-The idea for chaining LLMs came from observing how we, as humans, approach problems. Most of the time, we use just enough effort to function effectively—and only dive deep when necessary. This mirrors how we think about efficiency in everything from manufacturing to daily life.
-
-With the growing variety of LLMs—older, smaller, cheaper models alongside newer, larger, more power-hungry ones—it can be confusing to decide which to use. My proposal is simple: start small and scale up only as needed. By using lightweight models first and escalating to more powerful ones when required, we can solve problems more efficiently, both in terms of cost and energy.
-This project aims to evolve into:
-
-- **An Open-Source Protocol for Model Chaining:**  
-  Developing a standardized protocol, tentatively named *LLMCast* or *ChainML*, to facilitate seamless integration and communication between diverse language models.
-
-- **A Standard Adapter Library Between Open Models:**  
-  Creating a comprehensive adapter library that enables interoperability among various open-source models, enhancing flexibility and usability.
-
-- **A Green AI Toolkit with Live Token Cost & Energy Estimation:**  
-  Building a toolkit focused on sustainability, providing real-time insights into token costs and energy consumption to promote environmentally conscious AI development.
-
-Achieving these objectives will contribute meaningfully to the AI community by emphasizing collaboration, standardization, and sustainability.
 
 https://github.com/bouchec66/energy_aware_models/wiki
 
