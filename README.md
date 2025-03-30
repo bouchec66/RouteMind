@@ -1,13 +1,13 @@
 © 2025 RouteMind Project. Released under the MIT License.
 
-# RouteMind – Energy-Aware LLM Chaining Framework
+# RouteMind – Cost-Aware LLM Chaining Framework
 ![image](https://github.com/user-attachments/assets/d7a59dbe-dbc6-4e2a-bcf0-646a450498bc)
-RouteMind is a modular, energy-aware framework for building plug-and-play LLM chains. It supports chaining LLMs into cost-effective, energy-conscious solutions across providers and model generations.
+RouteMind is a modular, cost-aware framework for building plug-and-play LLM chains. It supports chaining LLMs into cost-effective, energy-conscious solutions across providers and model generations.
 ---
 
 ## 🚀 Project Goals
 
-- ⚡ **Energy-aware orchestration**: dynamically route tasks to appropriate models based on cost/performance tradeoffs.
+- ⚡ **Cost-aware orchestration**: dynamically route tasks to appropriate models based on cost/performance tradeoffs.
 - 🧱 **Plug-and-play chain design**: swap in/out models, preprocessors, and logic with minimal friction.
 - 🔄 **Reproducibility & Portability**: clean environment setup with rebuild/startup tooling.
 - 🌐 **Remote-first**: developed with containerized or hosted GPU environments in mind.
