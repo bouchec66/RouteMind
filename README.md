@@ -74,7 +74,7 @@ What it does:
 
 ## 🧪 Development Notes
 
-- This project installs itself as an **editable package**, so changes in `src/energy_aware_models/` reflect instantly.
+- This project installs itself as an **editable package**, so changes in `src/RouteMind/` reflect instantly.
 - Ideal for containerized dev (e.g., RunPod, Docker).
 - Designed for chaining LLM calls together using dynamic routing, caching, and cost-aware strategies (coming soon).
 
