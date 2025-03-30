@@ -1,6 +1,7 @@
-# ⚡ Energy-Aware LLM Chaining Framework
+# ⚡ RouteMind – Energy-Aware LLM Chaining Framework
 
-A modular, energy-aware framework for building plug-and-play LLM chains. Designed to support chaining LLMs into cost-effective, energy-conscious solutions.
+
+RouteMind is a modular, energy-aware framework for building plug-and-play LLM chains. It supports chaining LLMs into cost-effective, energy-conscious solutions across providers and model generations.
 ---
 
 ## 🚀 Project Goals
@@ -15,6 +16,8 @@ A modular, energy-aware framework for building plug-and-play LLM chains. Designe
 https://github.com/bouchec66/energy_aware_models/wiki
 
 ## 📁 Project Structure
+
+Note: This project is being renamed from `energy_aware_models` to **RouteMind**. Folder names and package imports may still reflect the old name in early versions.
 
 ```
 energy_aware_models/
